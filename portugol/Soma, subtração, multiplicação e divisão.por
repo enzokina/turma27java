@@ -11,7 +11,7 @@ programa
 		res= num1+num2
 		escreva("Soma: " + res)
 		res= num1-num2
-		escreva("\nDiferença: " + res)
+		escreva("\65nDiferença: " + res)
 		res= num1*num2
 		escreva("\nMultiplicação: " + res)
 		res= num1/num2
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 219; 
+ * @POSICAO-CURSOR = 221; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
