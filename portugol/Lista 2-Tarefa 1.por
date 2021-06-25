@@ -3,23 +3,24 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro tempoEvento,seg,min,hora
-
-		escreva("Digite o tempo de duração do evento em segundos: ","\n")
-		leia(tempoEvento)
-
-		hora= tempoEvento/3600
-		min= (tempoEvento%3600)/60
-		seg= (tempoEvento%3600)%60
+		real P,M,E
 		
-		escreva("O evento durou: ", hora," horas,", min," minutos e ", seg," segundos.","\n\n"88)
+		escreva("Insira o peso dos tomates(em quilo) : ")
+		leia(P)
 		
-		escreva("FIM DO PROGRAMA")
+		se (P <=50){
+			escreva("Você não tem multa para pagar!")
+		}senao se(P >50){
+			E = (P-50)
+			M = (E*4.00)
+			escreva("O execesso foi de: ", E," kg e terá que pagar uma multa no valor de: ", M," reais")
+			
+		}
+				
+			
 
-
-
-		
-		 
+				
+			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 334; 
+ * @POSICAO-CURSOR = 115; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

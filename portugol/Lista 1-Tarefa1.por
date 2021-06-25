@@ -17,7 +17,7 @@ programa
 
 		idade = 2021 - anos
 
-		idadeemDias = idade * 365
+		idadeemDias = (idade*365) + dias + (meses*30)
 		escreva("Você tem " + idadeemDias + " dias de vida.") 
 		
 		
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 425; 
+ * @POSICAO-CURSOR = 371; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
