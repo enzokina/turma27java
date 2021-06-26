@@ -3,24 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		real peso,multa,excesso
-		
-		escreva("Insira o peso dos tomates(em quilo) : ")
-		leia(peso)
-		
-		se (peso <=50){
-			escreva("Você não tem multa para pagar!")
-		}senao se(peso >50){
-			excesso = (peso-50)
-			multa = (excesso*4.00)
-			escreva("O execesso foi de: ", excesso," kg e terá que pagar uma multa no valor de: ", multa," reais")
-			
-		}
-				
-			
-
-				
-			
+		inteiro x
+		inteiro acm = 0
+		faca{
+			escreva("Entre com um valor: ")
+			leia(x)
+			acm= acm + x
+		}enquanto(x != 0)
+		escreva("Eu acumulei: ",acm)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 234; 
+ * @POSICAO-CURSOR = 120; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
