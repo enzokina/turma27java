@@ -26,6 +26,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Proevento\Desktop\turma27java\Spring\loja_games"/>
 			<item value="C:\Users\Proevento\Desktop\MavenProjects\BlogPessoal"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -36,5 +37,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
